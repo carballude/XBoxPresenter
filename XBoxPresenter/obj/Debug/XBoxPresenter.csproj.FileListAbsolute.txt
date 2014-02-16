@@ -1,0 +1,6 @@
+c:\users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\XBoxPresenter\bin\Debug\XBoxPresenter.exe.config
+c:\users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\XBoxPresenter\obj\Debug\XBoxPresenter.csprojResolveAssemblyReference.cache
+c:\users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\XBoxPresenter\bin\Debug\XBoxPresenter.exe
+c:\users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\XBoxPresenter\bin\Debug\XBoxPresenter.pdb
+c:\users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\XBoxPresenter\obj\Debug\XBoxPresenter.exe
+c:\users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\XBoxPresenter\obj\Debug\XBoxPresenter.pdb

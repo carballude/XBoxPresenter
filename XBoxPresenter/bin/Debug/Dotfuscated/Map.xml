@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dotfuscatorMap SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscatorMap_v1.2.dtd">
+<dotfuscatorMap version="1.1">
+    <header>
+        <timestamp>2014-02-13T04:47:55</timestamp>
+        <product version="5.5.4954.46574" user="Unregistered " serial="000-00-000-391">Dotfuscator and Analytics Community Edition</product>
+    </header>
+    <mapping>
+        <module>
+            <name>XBoxPresenter.exe</name>
+            <type>
+                <name>XBoxPresenter.XBoxPresenter</name>
+                <newname>a</newname>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>void(System.EventHandler)</signature>
+                        <name>add_XBoxControllerStateChanged</name>
+                        <newname>b</newname>
+                    </method>
+                    <method>
+                        <signature>void(string[])</signature>
+                        <name>Main</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(System.EventHandler)</signature>
+                        <name>remove_XBoxControllerStateChanged</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>UpdateGameControllerStatus</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>XBoxPresenter_XBoxControllerStateChanged</name>
+                        <newname>a</newname>
+                    </method>
+                    <method>
+                        <signature>int32(int32, XBoxPresenter.XBoxPresenter/XInputState&amp;)</signature>
+                        <name>XInputGetState</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/XInputState</signature>
+                        <name>_currentState</name>
+                        <newname>b</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/XInputState</signature>
+                        <name>_oldState</name>
+                        <newname>a</newname>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>leftTriggerInUse</name>
+                        <newname>d</newname>
+                    </field>
+                    <field>
+                        <signature>bool</signature>
+                        <name>rightTriggerInUse</name>
+                        <newname>c</newname>
+                    </field>
+                    <field>
+                        <signature>System.EventHandler</signature>
+                        <name>XBoxControllerStateChanged</name>
+                        <newname>e</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>XBoxPresenter.XBoxPresenter/ButtonFlags</name>
+                <newname>a/b</newname>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>int32</signature>
+                        <name>value__</name>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_A</name>
+                        <newname>k</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_B</name>
+                        <newname>l</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_BACK</name>
+                        <newname>f</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_DPAD_DOWN</name>
+                        <newname>b</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_DPAD_LEFT</name>
+                        <newname>c</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_DPAD_RIGHT</name>
+                        <newname>d</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_DPAD_UP</name>
+                        <newname>a</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_LEFT_SHOULDER</name>
+                        <newname>i</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_LEFT_THUMB</name>
+                        <newname>g</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_RIGHT_SHOULDER</name>
+                        <newname>j</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_RIGHT_THUMB</name>
+                        <newname>h</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_START</name>
+                        <newname>e</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_X</name>
+                        <newname>m</newname>
+                    </field>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/ButtonFlags</signature>
+                        <name>XINPUT_GAMEPAD_Y</name>
+                        <newname>n</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>XBoxPresenter.XBoxPresenter/XInputGamepad</name>
+                <newname>a/a</newname>
+                <methodlist>
+                    <method>
+                        <signature>void(XBoxPresenter.XBoxPresenter/XInputGamepad)</signature>
+                        <name>Copy</name>
+                        <newname>h</newname>
+                    </method>
+                    <method>
+                        <signature>bool(object)</signature>
+                        <name>Equals</name>
+                    </method>
+                    <method>
+                        <signature>bool(int32)</signature>
+                        <name>IsButtonPresent</name>
+                        <newname>i</newname>
+                    </method>
+                    <method>
+                        <signature>bool(int32)</signature>
+                        <name>IsButtonPressed</name>
+                        <newname>h</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>bLeftTrigger</name>
+                        <newname>b</newname>
+                    </field>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>bRightTrigger</name>
+                        <newname>c</newname>
+                    </field>
+                    <field>
+                        <signature>int16</signature>
+                        <name>sThumbLX</name>
+                        <newname>d</newname>
+                    </field>
+                    <field>
+                        <signature>int16</signature>
+                        <name>sThumbLY</name>
+                        <newname>e</newname>
+                    </field>
+                    <field>
+                        <signature>int16</signature>
+                        <name>sThumbRX</name>
+                        <newname>f</newname>
+                    </field>
+                    <field>
+                        <signature>int16</signature>
+                        <name>sThumbRY</name>
+                        <newname>g</newname>
+                    </field>
+                    <field>
+                        <signature>int16</signature>
+                        <name>wButtons</name>
+                        <newname>a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>XBoxPresenter.XBoxPresenter/XInputState</name>
+                <newname>a/c</newname>
+                <methodlist>
+                    <method>
+                        <signature>void(XBoxPresenter.XBoxPresenter/XInputState)</signature>
+                        <name>Copy</name>
+                        <newname>c</newname>
+                    </method>
+                    <method>
+                        <signature>bool(object)</signature>
+                        <name>Equals</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>XBoxPresenter.XBoxPresenter/XInputGamepad</signature>
+                        <name>Gamepad</name>
+                        <newname>b</newname>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>PacketNumber</name>
+                        <newname>a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+        </module>
+    </mapping>
+    <statistics>
+        <statisticline>
+            <description>Total Classes</description>
+            <statistic>4</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods</description>
+            <statistic>13</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields</description>
+            <statistic>29</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Classes Renamed</description>
+            <statistic>4</statistic>
+            <statistic>100,00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods Renamed</description>
+            <statistic>9</statistic>
+            <statistic>69,23 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields Renamed</description>
+            <statistic>28</statistic>
+            <statistic>96,55 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0,00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0,00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'a'</description>
+            <statistic>4</statistic>
+            <statistic>30,77 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'h'</description>
+            <statistic>2</statistic>
+            <statistic>15,38 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'b'</description>
+            <statistic>1</statistic>
+            <statistic>7,69 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'c'</description>
+            <statistic>1</statistic>
+            <statistic>7,69 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'i'</description>
+            <statistic>1</statistic>
+            <statistic>7,69 %</statistic>
+        </statisticline>
+    </statistics>
+</dotfuscatorMap>
