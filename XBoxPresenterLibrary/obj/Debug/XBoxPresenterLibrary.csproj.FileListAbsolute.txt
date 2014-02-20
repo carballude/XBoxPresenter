@@ -3,3 +3,8 @@ C:\Users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\XBoxPresent
 C:\Users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\XBoxPresenterLibrary\obj\Debug\XBoxPresenterLibrary.csprojResolveAssemblyReference.cache
 C:\Users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\XBoxPresenterLibrary\obj\Debug\XBoxPresenterLibrary.dll
 C:\Users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\XBoxPresenterLibrary\obj\Debug\XBoxPresenterLibrary.pdb
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\XBoxPresenterLibrary\bin\Debug\XBoxPresenterLibrary.dll
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\XBoxPresenterLibrary\bin\Debug\XBoxPresenterLibrary.pdb
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\XBoxPresenterLibrary\obj\Debug\XBoxPresenterLibrary.csprojResolveAssemblyReference.cache
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\XBoxPresenterLibrary\obj\Debug\XBoxPresenterLibrary.dll
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\XBoxPresenterLibrary\obj\Debug\XBoxPresenterLibrary.pdb

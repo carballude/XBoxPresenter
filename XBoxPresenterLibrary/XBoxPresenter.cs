@@ -25,6 +25,8 @@ namespace XBoxPresenterLibrary
         public event EventHandler XBoxControllerRightTriggerPressed = null;
         public event EventHandler XBoxControllerLeftTriggerPressed = null;
         public event EventHandler XBoxControllerAButtonPressed = null;
+        public event EventHandler XBoxControllerBButtonPressed = null;
+        public event EventHandler XBoxControllerXButtonPressed = null;
         #endregion
 
         private event EventHandler XBoxControllerStateChanged = null;
@@ -199,6 +201,12 @@ namespace XBoxPresenterLibrary
 
             if (_currentState.Gamepad.IsButtonPressed((int)ButtonFlags.XINPUT_GAMEPAD_A))
                 XBoxControllerAButtonPressed(this, null);
+
+            if (_currentState.Gamepad.IsButtonPressed((int)ButtonFlags.XINPUT_GAMEPAD_B))
+                XBoxControllerBButtonPressed(this, null);
+
+            if (_currentState.Gamepad.IsButtonPressed((int)ButtonFlags.XINPUT_GAMEPAD_X))
+                XBoxControllerXButtonPressed(this, null);
 
             if (_currentState.Gamepad.IsButtonPressed((int)ButtonFlags.XINPUT_GAMEPAD_START))
                 XBoxControllerStartPressed(this, null);

@@ -24,6 +24,8 @@ namespace PresenterGUI
             _presenter = new XBoxPresenter();
             _presenterThread = new Thread(_presenter.UpdateGameControllerStatus);            
             _presenter.XBoxControllerAButtonPressed += (x, y) => { SendKeys.SendWait("A"); };
+            _presenter.XBoxControllerBButtonPressed += (x, y) => { SendKeys.SendWait("{END}"); };
+            _presenter.XBoxControllerXButtonPressed += (x, y) => { SendKeys.SendWait("{HOME}"); };
             _presenter.XBoxControllerBackPressed += (x, y) => { SendKeys.SendWait("{ESC}"); };
             _presenter.XBoxControllerLeftTriggerPressed += (x, y) => { SendKeys.SendWait("{LEFT}"); };
             _presenter.XBoxControllerRightTriggerPressed += (x, y) => { SendKeys.SendWait("{RIGHT}"); };

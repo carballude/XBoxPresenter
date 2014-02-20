@@ -10,3 +10,15 @@ C:\Users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\PresenterGU
 C:\Users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\PresenterGUI\obj\Debug\PresenterGUI.exe
 C:\Users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\PresenterGUI\obj\Debug\PresenterGUI.pdb
 C:\Users\pacarba\documents\visual studio 2013\Projects\XBoxPresenter\PresenterGUI\obj\Debug\PresenterGUI.AboutXBoxPresenter.resources
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\bin\Debug\PresenterGUI.exe.config
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\obj\Debug\PresenterGUI.exe
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\obj\Debug\PresenterGUI.pdb
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\bin\Debug\PresenterGUI.exe
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\bin\Debug\PresenterGUI.pdb
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\bin\Debug\XBoxPresenterLibrary.dll
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\bin\Debug\XBoxPresenterLibrary.pdb
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\obj\Debug\PresenterGUI.csprojResolveAssemblyReference.cache
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\obj\Debug\PresenterGUI.AboutXBoxPresenter.resources
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\obj\Debug\PresenterGUI.PresenterGUI.resources
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\obj\Debug\PresenterGUI.Properties.Resources.resources
+C:\Users\pacarba\Documents\GitHub\XBoxPresenter\PresenterGUI\obj\Debug\PresenterGUI.csproj.GenerateResource.Cache
